@@ -1,6 +1,6 @@
 import {INCREMENT,DECREMENT} from "./actionTypes";
 
-export default function reducer(state=10,action){
+export default function reducer(state=0,action){
     switch(action.type){
         case INCREMENT:
             return state+1;
